@@ -11,7 +11,7 @@ public class MainBinaryTree {
         tree.addLeft(tree.right(tree.right(tree.root)),"20");
         tree.addRight(tree.right(tree.right(tree.root)),"2");
         for(String s:tree){
-            System.out.println(s);
+            System.out.print(s+" ");
         }
     }
     
